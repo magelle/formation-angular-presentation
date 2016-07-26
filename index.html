@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+        <link rel="stylesheet" href="css/novencia.css"
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/black.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+                    <h1>AngularJS</h1>
+                    <img src="image/logo-angular.png" height="300"/>
+                    <h2>Novencia</h2>
+                    <h3>Présentation de la formation</h3>
+                </section>
+				<section>
+                    <h2>Déroulement</h2>
+                    <ul>
+                        <li>Nous ?</li>
+                        <li>Autour d'AngularJS</li>
+                        <li>Le framework ++</li>
+                        <li>La formation</li>
+                    </ul>
+                </section>
+                <section>
+                    <h2>Nous</h2>
+                    <section><h1>Emmanuel</h1></section>
+                    <section><h1>Maxime</h1></section>
+                </section>
+                <section>
+                    <section>
+                        <h2>Histoire</h2>
+                        <ul>
+                            <li>Créé en 2009 (7 ans)</li>
+                            <li>Version 1.5 - 2</li>
+                            <li>Misko Hevery</li>
+                            <li>GOOGLE</li>
+                            <li>GWT Laborieux - frustrant</li>
+                        </ul>
+                    </section>
+                    <section><h2>Les concurents</h2><img src="image/logo-react.png" /></section>
+                    <section><h2>Les concurents</h2><img src="image/logo-aurelia.png" /></section>
+                    <section><h2>Les concurents</h2><img src="image/logo-backbone.png" /></section>
+                    <section><h2>Les concurents</h2><img src="image/logo-canjs.png" /></section>
+                    <section><h2>Les concurents</h2><img src="image/logo-ember.png" /></section>
+                    <section><h2>Les concurents</h2><img src="image/logo-handlebars.jpg" /></section>
+                    <section><h2>Les concurents</h2><img src="image/logo-knockout.png" /></section>
+                    <section><h2>Les concurents</h2><img src="image/logo-meteor.png" /></section>
+                    <section><h2>Les concurents</h2><img src="image/logo-polymer.png" /></section>
+                    <section><h2>Les concurents</h2><img src="image/logo-vuejs.png" /></section>
+                    <section>
+                        <h2>Les concurents</h2>
+                        <a href="http://todomvc.com/">http://todomvc.com/</a>
+                    </section>
+                </section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				history: true,
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
